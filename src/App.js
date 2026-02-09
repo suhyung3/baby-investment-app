@@ -39,7 +39,7 @@ export default function BabyInvestmentCalculator() {
   const [initialGift, setInitialGift] = useState(2000);
   const [monthlyAmount, setMonthlyAmount] = useState(50);
   const [returnRate, setReturnRate] = useState(7);
-  const [targetAge, setTargetAge] = useState(20);
+  const [targetAge] = useState(20);
   const [enableSecondGift, setEnableSecondGift] = useState(false);
   const [secondGiftAge, setSecondGiftAge] = useState(10);
   const [secondGiftAmount, setSecondGiftAmount] = useState(3100);
